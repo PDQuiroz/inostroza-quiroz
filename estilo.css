@@ -59,7 +59,8 @@ h3{
 }
 
 h4{
-	letter-spacing:20 em; 
+	letter-spacing: 0 em; 
+	padding:0;
 	
 }
 

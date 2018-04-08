@@ -1,0 +1,288 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	color:rgba(25,25,25,1);
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+}
+
+h1, h3, h4,h6{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+h1{
+	font-size: 550%;
+	font-weight: 700;
+	letter-spacing:0.1em;
+	margin-left: 0.52em;
+	color:white;
+	text-align:left;
+	text-decoration: overline;
+}
+
+h6{
+	font-size: 550%;
+	font-weight: 700;
+	letter-spacing:0.1em;
+	margin-left: 0.52em;
+	color:red;
+	text-align:left;
+	text-decoration: underline;
+
+}
+
+h2{
+	letter-spacing:0.02em; 
+	color:white; 
+	text-align:left;
+	margin-left: 4em;
+	font-size: 70%;	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+
+}
+
+
+
+h3{
+	letter-spacing:0.2em; 
+	color:white; 
+	padding:2em 0 0.6em 0; 
+	text-align:center;	
+	font-weight: 700;
+	font-size: 1.5em;
+	text-decoration: underline overline;
+}
+
+h4{
+	letter-spacing:0.2em; 
+	
+}
+
+
+
+
+
+	
+
+
+
+
+#contenido{width:100%; margin: auto;
+background: linear-gradient(to bottom right, rgba(10,10,10,0.9), rgba(10,10,10,0.5));}
+
+#contenido a:hover{
+filter
+
+}
+#contenido a:hover{
+
+
+}
+
+header{
+	width:98%;
+	top:5%;
+	position: absolute;
+	text-align:center;
+	z-index:9;
+	color:white;
+}
+
+@media screen and (max-width: 980px){
+	header{top:20%;}
+}
+
+@media screen and (max-width: 860px){
+	header{top:10%;}
+}
+
+video{
+	width:90%;
+	height:auto;
+	margin-left:5%;
+	margin-right: auto;
+
+	}
+
+
+
+#somos{
+	width:90%;
+	background:rgb(250,255,250);
+	margin:auto;
+
+	}
+
+.dupla{
+	width:46%;
+	padding:2%;
+	float:left;
+	background-color:none;
+	}
+
+.dupla a{
+	color:rgba(255,0,0,0.75);
+	text-decoration:none;
+	font-weight:700;
+}
+
+.dupla a:hover{
+	color:rgba(255,0,0,1);
+	text-decoration:underline;
+}
+
+.dupla a:hover{
+
+}
+
+.primera{
+	min-height:300px;
+	text-align:left;
+	background-color:rgba(255,255,255,0.9);
+	background-image:url('media/Artboard 1.jpg');
+	background-position:top right;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
+}
+.primera h4{padding: 2% 40% 1% 2%;}
+
+.primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
+
+.primera p{padding: 2% 40% 2% 2%;}
+
+.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
+
+.segunda{
+	min-height:300px;
+	text-align:right;
+	background-color:rgba(255,255,255,0.9);
+	background-image:url('media/Artboard 2.jpg');
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
+}
+
+.segunda h4{padding: 2% 2% 1% 40%;}
+
+.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
+
+.segunda p{padding: 2% 2% 2% 40%;}
+
+.segunda address{padding: 2% 2% 2% 40%; font-size:0.9em; font-style:normal;}
+
+#somos hr{
+	clear:both;
+	border:none;
+	}
+
+#portafolio{
+	width:95%;
+	padding-bottom:1%;
+	background:none;
+	margin-left:4%; 
+	margin-right: auto;
+}
+
+.item {
+	width:22.1%;
+	margin:1%;
+	color:#333;
+	background:rgba(255,255,255,0.9);
+	box-shadow:2px 3px rgba(0,0,0,0.2);
+
+}
+
+.item:hover{
+	cursor:not-allowed;
+}
+
+.item figure{
+	overflow:hidden;
+}
+
+.item figure img{
+	width:100%; 
+	height:auto; 
+	margin-bottom:-4px;
+	filter: grayscale(1);
+}
+
+.item:hover figure img{
+	transform:scale(1.25);
+	filter: grayscale(0);	
+	transition:all ease-out 0.5s;
+}
+
+.item figure img{
+	width:100%; 
+	height:auto; 
+	margin-bottom:-4px;
+	filter: blur(1px);
+}
+
+.item:hover figure img{
+	transform:scale(1.1);
+	filter: blur(0px);	
+	transition:all ease-out 0.5s;
+}
+
+
+.item h4{
+	font-size:1em;
+	letter-spacing:0.025em;
+	margin:5% 5% 3% 5%;
+}
+
+.item p{
+	font-size:0.875em;
+	letter-spacing:0.05em;
+	margin:2% 5% 6% 5%;
+}
+
+footer{
+	width:100%;
+	padding:3em 0 1em 0;
+	text-align:center;
+	font-family: 'Roboto', sans-serif; 
+	font-weight:500; 
+	color: white;	
+}
+
+footer p{
+	text-transform:lowercase;
+	letter-spacing:0.2em;
+	font-size:0.4em;
+	}
+
+footer hr{
+	border:1px solid white;
+	width:4%;
+	margin:0.2em auto 0 auto;
+	}
+
+@media screen and (orientation: portrait){
+
+	.dupla{
+		width:96%;
+		padding:2%;
+		float:left;
+	}
+	.item{
+		width:48%;
+		margin:1%;
+		color:#c8b900;
+	}
+
+	footer hr{
+	width:10%;
+	}
+
+
+
+	
+}
